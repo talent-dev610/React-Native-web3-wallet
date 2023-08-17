@@ -1,0 +1,37 @@
+{
+  "name": "react-native-web3-wallet",
+  "version": "1.2.6",
+  "description": "This is a safe web3 wallet tools, to help with develop wallet applications quickly.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "interface.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "web3",
+    "ethers",
+    "wallet"
+  ],
+  "author": "heroims",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heroims/react-native-web3-wallet/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heroims/react-native-web3-wallet.git"
+  },
+  "peerDependencies": {
+    "react-native": "*",
+    "react-native-get-random-values": "*"
+  },
+  "dependencies": {
+    "@ethersproject/shims": "^5.7.0",
+    "ethers": "^5.7.0"
+  }
+}
